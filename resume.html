@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <!--CSS-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./css/my_styles.css" />
+    <title>Wellington Lopes Regis - Computer Science Graduate</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="./index.html">Wellington's website</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html">About me<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="./resume.html">Resume</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./portfolio.html">Portfolio</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <br>
+            <h1 class="font-inconsolata">Education</h1>
+            <br>
+            <div>
+                <table class="table text-left">
+                    <tbody>
+                        <!--CCT-->
+                        <tr class="clickable" onClick="toggle('cct');">
+                            <td class="period">Sep. 2018 - Sep. 2019</td>
+                            <td class="logo">
+                                <img class="align-center" src="./img/cct.jpg" alt="cct">
+                            </td>
+                            <td>
+                                <div>
+                                    <div class="font-weight-bold">
+                                        CCT College Dublin, Dublin
+                                        <img class="align-baseline" src="./img/ie.png" alt="Ireland" width="17"></div>
+                                    <div class="font-italic">
+                                        Higher Diploma in Science in Computing
+                                    </div>
+                                    <div id="cct" style="display: none;">
+                                        <br>
+                                        Awarded a First Class Honours degree (7.4/10)
+                                        <br>
+                                        <br>
+                                        Modules:
+                                        <ul>
+                                            <li>Algorithms & Constructs
+                                            </li>
+                                            <li>Cloud Based Web Applications</li>
+                                            <li>Computer Architecture & Operating Systems</li>
+                                            <li>Databases</li>
+                                            <li>Mobile Development</li>
+                                            <li>Networking & Virtualisation</li>
+                                            <li>Software Development Fundamentals</li>
+                                            <li>Web Development</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <!--Bridge-->
+                        <tr onClick="toggle('bridge');">
+
+                            <td class="period">Mar. 2017 - June 2018</td>
+                            <td class="logo">
+                                <img src="./img/bridge.jpg" alt="Bridge Mills">
+                            </td>
+                            <td>
+                                <div>
+                                    <div class="font-weight-bold">
+                                        Bridge Mills Language Centre, Galway
+                                        <img class="align-baseline" src="./img/ie.png" alt="Ireland" width="17">
+                                    </div>
+                                    <div class="font-italic">
+                                        English as a Second Language
+                                    </div>
+                                    <div id="bridge" style="display: none;">
+                                        <br>
+                                        Certifications received:
+                                        <ul>
+                                            <li>Cambridge Advanced English (CAE): 209/210</li>
+                                            <li>IELTS: 8.0/9.0</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <!--USP-->
+                        <tr>
+                            <td class="period">Feb. 2011 - Dec. 2016</td>
+                            <td class="logo">
+                                <img src="./img/usp.png" alt="usp">
+                            </td>
+                            <td>
+                                <div>
+                                    <div class="font-weight-bold">
+                                        Universidade de São Paulo, São Paulo
+                                        <img class="align-baseline" src="./img/br.png" alt="Ireland" width="17">
+                                    </div>
+                                    <div class="font-italic">
+                                        Bachelor's (Honours) in Chemical Engineering
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <br>
+            <h1 class="font-inconsolata">Work Experience</h1>
+            <br>
+            <div>
+                <table class="table text-left">
+                    <tbody>
+                        <!--Tiger-->
+                        <tr>
+                            <td class="period">Feb. 2020 - today</td>
+                            <td class="logo">
+                                <img src="./img/tiger.jfif" alt="tiger">
+                            </td>
+                            <td>
+                                <div>
+                                    <div class="font-weight-bold">
+                                        Flying Tiger Copenhagen, Maynooth
+                                        <img class="align-baseline" src="./img/ie.png" alt="Ireland" width="17"></div>
+                                    <div class="font-italic">
+                                        Team Leader
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <!--Tiger-->
+                        <tr>
+                            <td class="period">Sep. 2019 - Feb. 2020</td>
+                            <td class="logo">
+                                <img src="./img/tiger.jfif" alt="tiger">
+                            </td>
+                            <td>
+                                <div>
+                                    <div class="font-weight-bold">
+                                        Flying Tiger Copenhagen, Maynooth
+                                        <img class="align-baseline" src="./img/ie.png" alt="Ireland" width="17">
+                                    </div>
+                                    <div class="font-italic">
+                                        Sales Assistant
+                                    </div>
+                                    <div>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <!--Carton-->
+                        <tr>
+                            <td class="period">May 2019 - Sep. 2019</td>
+                            <td class="logo">
+                                <img src="./img/carton.jpg" alt="carton">
+                            </td>
+                            <td>
+                                <div>
+                                    <div class="font-weight-bold">
+                                        Carton House Hotel, Maynooth
+                                        <img class="align-baseline" src="./img/ie.png" alt="Ireland" width="17">
+                                    </div>
+                                    <div class="font-italic">
+                                        Accommodation Assistant
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <!--Callarock-->
+                        <tr>
+                            <td class="period">June 2018 - Dec. 2018</td>
+                            <td class="logo"></td>
+                            <td>
+                                <div>
+                                    <div class="font-weight-bold">
+                                        Callarock Ventures, Galway
+                                        <img class="align-baseline" src="./img/ie.png" alt="Ireland" width="17">
+                                    </div>
+                                    <div class="font-italic">
+                                        Web Developer & Bookkeeping Assistant
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <!--e-Cig-->
+                        <tr>
+                            <td class="period">Sep. 2017 - June 2018</td>
+                            <td class="logo">
+                                <img src="./img/ecig.png" alt="ecig">
+                            </td>
+                            <td>
+                                <div>
+                                    <div class="font-weight-bold">
+                                        The e-Cig Store, Galway
+                                        <img class="align-baseline" src="./img/ie.png" alt="Ireland" width="17">
+                                    </div>
+                                    <div class="font-italic">
+                                        Retail Assistant
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <!--Clark-->
+                        <tr>
+                            <td class="period">Sep. 2016 - Dec. 2018</td>
+                            <td class="logo">
+                                <img src="./img/clark.png" alt="clark">
+                            </td>
+                            <td>
+                                <div>
+                                    <div class="font-weight-bold">
+                                        Clark Solutions, São Paulo
+                                        <img class="align-baseline" src="./img/br.png" alt="Ireland" width="17">
+                                    </div>
+                                    <div class="font-italic">
+                                        Chemical Engineering Intern
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <!--LEA-->
+                        <tr>
+                            <td class="period">May 2015 - Dec. 2015</td>
+                            <td class="logo">
+                                <img src="./img/usp.png" alt="usp">
+                            </td>
+                            <td>
+                                <div>
+                                    <div class="font-weight-bold">
+                                        Laboratory of Electrochemistry and Corrosion (LEC), Universidade de São Paulo
+                                        <img class="align-baseline" src="./img/br.png" alt="Brazil" width="17">
+                                    </div>
+                                    <div class="font-italic">
+                                        Research & Development Intern
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <!--IPEN-->
+                        <tr>
+                            <td class="period">Sep. 2014 - Dec. 2014</td>
+                            <td class="logo">
+                                <img src="./img/ipen.jfif" alt="ipen">
+                            </td>
+                            <td>
+                                <div>
+                                    <div class="font-weight-bold">
+                                        Institute of Energy and Nuclear Research (IPEN), São Paulo
+                                        <img class="align-baseline" src="./img/br.png" alt="Brazil" width="17">
+                                    </div>
+                                    <div class="font-italic">
+                                        Research & Development Intern
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </main>
+    <!--JavaScript-->
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <script src="./js/my_scripts.js"></script>
+</body>
+
+</html>
