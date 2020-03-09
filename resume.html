@@ -14,23 +14,25 @@
 <body>
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <a class="navbar-brand" href="./index.html">Wellington's website</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="./index.html">About me<span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="./resume.html">Resume</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./portfolio.html">Portfolio</a>
-                    </li>
-                </ul>
+            <div class="container">
+                <a class="navbar-brand" href="./index.html">Wellington's website</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                    aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="./index.html">About me<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="./resume.html">Resume</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./portfolio.html">Portfolio</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </nav>
     </header>
@@ -78,7 +80,7 @@
                             </td>
                         </tr>
                         <!--Bridge-->
-                        <tr onClick="toggle('bridge');">
+                        <tr class="clickable" onClick="toggle('bridge');">
 
                             <td class="period">Mar. 2017 - June 2018</td>
                             <td class="logo">
@@ -105,7 +107,7 @@
                             </td>
                         </tr>
                         <!--USP-->
-                        <tr>
+                        <tr class="clickable" onClick="toggle('usp');">
                             <td class="period">Feb. 2011 - Dec. 2016</td>
                             <td class="logo">
                                 <img src="./img/usp.png" alt="usp">
@@ -118,6 +120,29 @@
                                     </div>
                                     <div class="font-italic">
                                         Bachelor's (Honours) in Chemical Engineering
+                                    </div>
+                                    <div id="usp" style="display: none;">
+                                        <br>
+                                        Final average: 7.4/10
+                                        <br>
+                                        <br>
+                                        Relevant modules:
+                                        <ul>
+                                            <li>Computing for Engineering (taught in C)</li>
+                                            <li>Numerical Methods and Applications (deliverables in C)</li>
+                                            <li>Linear Algebra for Engineering (I & II)</li>
+                                            <li>Calculus for Engineering (I, II, III & IV)</li>
+                                            <li>Physics for Engineering (I, II, III & IV)</li>
+                                            <li>Statistics</li>
+                                        </ul>
+                                        <div class="text-justify">
+                                            Exchange year abroad at the <span class="font-weight-bold">University of
+                                                Manchester, Manchester <img class="align-baseline" src="./img/gb.png"
+                                                    alt="UK" width="17"> </span>attending classes of the B.Eng. Chemical
+                                            Engineering course (sponsored by the Science Without Borders Program, a
+                                            mobility scheme by the Brazilian Government granted to students with
+                                            academic excellence).
+                                        </div>
                                     </div>
                                 </div>
                             </td>
@@ -187,7 +212,7 @@
                             </td>
                         </tr>
                         <!--Callarock-->
-                        <tr>
+                        <tr class="clickable" onClick="toggle('callarock')">
                             <td class="period">June 2018 - Dec. 2018</td>
                             <td class="logo"></td>
                             <td>
@@ -199,11 +224,23 @@
                                     <div class="font-italic">
                                         Web Developer & Bookkeeping Assistant
                                     </div>
+                                    <div id="callarock" style="display: none;">
+                                        <br>
+                                        <ul>
+                                            <li>Developed a responsive web page for one of Callarock’s subsidiaries
+                                                (Available soon).</li>
+                                            <li>Managed my time to be able to handle all bookkeeping tasks in about 20
+                                                hours per week, which included doing the payroll (50+ employees),
+                                                balancing books, keeping up with e-mails, filing, dealing with
+                                                employees’ queries, paying wages and suppliers, as well as answering the
+                                                phone. Systems: MSOffice, Collsoft and The Big Red Book.</li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </td>
                         </tr>
                         <!--e-Cig-->
-                        <tr>
+                        <tr class="clickable" onClick="toggle('ecig')">
                             <td class="period">Sep. 2017 - June 2018</td>
                             <td class="logo">
                                 <img src="./img/ecig.png" alt="ecig">
@@ -217,11 +254,20 @@
                                     <div class="font-italic">
                                         Retail Assistant
                                     </div>
+                                    <div id="ecig" style="display: none;">
+                                        <br>
+                                        <ul>
+                                            <li>Improved my soft skills considerably (in special communication,
+                                                collaboration and time management skills) following advice from
+                                                supervisors and managers in order to deliver excellent customer service.
+                                            </li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </td>
                         </tr>
                         <!--Clark-->
-                        <tr>
+                        <tr class="clickable" onClick="toggle('clark')">
                             <td class="period">Sep. 2016 - Dec. 2018</td>
                             <td class="logo">
                                 <img src="./img/clark.png" alt="clark">
@@ -235,11 +281,20 @@
                                     <div class="font-italic">
                                         Chemical Engineering Intern
                                     </div>
+                                    <div id="clark" style="display: none;">
+                                        <br>
+                                        <ul>
+                                            <li>
+                                                Used and updated company software (mainly MATLAB and VBA) for designing
+                                                equipment for the chemical industry.
+                                            </li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </td>
                         </tr>
                         <!--LEA-->
-                        <tr>
+                        <tr class="clickable" onClick="toggle('lea')">
                             <td class="period">May 2015 - Dec. 2015</td>
                             <td class="logo">
                                 <img src="./img/usp.png" alt="usp">
@@ -253,11 +308,26 @@
                                     <div class="font-italic">
                                         Research & Development Intern
                                     </div>
+                                    <div id="lea" style="display: none;">
+                                        <br>
+                                        <ul>
+                                            <li>
+                                                Analysis of the anticorrosive properties of a then new paint that was
+                                                about to be launched into the market by use of Electrochemical Impedance
+                                                Spectroscopy (EIS).
+                                            </li>
+                                            <li>
+                                                Analyses of the performance of different new corrosion inhibitors in
+                                                corrosive media simulating oil well conditions. Tests carried out: EIS,
+                                                Tafel curves.
+                                            </li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </td>
                         </tr>
                         <!--IPEN-->
-                        <tr>
+                        <tr class="clickable" onClick="toggle('ipen')">
                             <td class="period">Sep. 2014 - Dec. 2014</td>
                             <td class="logo">
                                 <img src="./img/ipen.jfif" alt="ipen">
@@ -271,7 +341,22 @@
                                     <div class="font-italic">
                                         Research & Development Intern
                                     </div>
+                                    <div id="ipen" style="display: none;">
+                                        <br>
+                                        <ul>
+                                            <li>
+                                                Irradiation of gelatin and potato starch based biofilms for the study of
+                                                their
+                                                physical and chemical properties. Resulted in the publication of an
+                                                article in
+                                                the International Nuclear Atlantic Conference (available <a
+                                                    href="https://github.com/wellybean/wellybean.github.io/blob/master/other/IRRADIATED%20GELATIN-POTATO%20STARCH%20BLENDS.pdf">here</a>).
+
+                                            </li>
+                                        </ul>
+                                    </div>
                                 </div>
+
                             </td>
                         </tr>
                     </tbody>
