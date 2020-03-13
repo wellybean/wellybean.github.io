@@ -11,6 +11,10 @@
   font-weight: bold;
 }
 
+a:hover, a:link, a:active, a:visited {
+  text-decoration: none;
+}
+
 .profile-img {
   box-shadow: 5px 5px 10px grey;
 }
@@ -33,3 +37,26 @@
   max-height: 50px;
 }
 
+.coloured-box {
+  border-radius: 5px;
+  color: white;
+  display: inline-block;
+  padding: 0 5px 2px 5px;
+  margin-bottom: 10px;
+}
+
+.bg-grey {
+  background-color: gray;
+}
+
+.bg-blue {
+  background-color: #33b5e5;
+}
+
+.bg-green {
+  background-color: #00C851;
+}
+
+.bg-orange {
+  background-color: #ffbb33;
+}
