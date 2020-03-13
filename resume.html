@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="./css/my_styles.css" />
     <title>Wellington Lopes Regis - Computer Science Graduate</title>
 </head>
@@ -46,21 +47,29 @@
                 <table class="table text-left">
                     <tbody>
                         <!--CCT-->
-                        <tr class="clickable" onClick="toggle('cct');">
-                            <td class="period">Sep. 2018 - Sep. 2019</td>
-                            <td class="logo">
-                                <img class="align-center" src="./img/cct.jpg" alt="cct">
-                            </td>
+                        <tr>
                             <td>
                                 <div>
-                                    <div class="font-weight-bold">
-                                        CCT College Dublin, Dublin
-                                        <img class="align-baseline" src="./img/ie.png" alt="Ireland" width="17"></div>
-                                    <div class="font-italic">
-                                        Higher Diploma in Science in Computing
+                                    <div class="d-flex justify-content-between">
+                                        <div class="d-flex justify-content-start">
+                                            <div class="ml-2 mr-4 d-flex align-items-center"><img src="img/cct.jpg"
+                                                    width="70px">
+                                            </div>
+                                            <div>
+                                                <div class="font-weight-bold">
+                                                    CCT College Dublin, Dublin <br>
+                                                    Sep. 2018 - Sep. 2019
+                                                </div>
+                                                <div class="font-italic">
+                                                    Higher Diploma in Science in Computing
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex align-items-center mx-3 clickable" onClick="toggle('cct');">
+                                            <i class="material-icons">more_vert</i></div>
                                     </div>
-                                    <div id="cct" style="display: none;">
-                                        <br>
+                                    <div class="mx-2 mt-3 coloured-box bg-light-grey px-4 pt-3 pb-2 font-weight-bold"
+                                        id="cct" style="display: none;">
                                         Awarded a First Class Honours degree (7.4/10)
                                         <br>
                                         <br>
@@ -80,24 +89,30 @@
                                 </div>
                             </td>
                         </tr>
-                        <!--Bridge-->
-                        <tr class="clickable" onClick="toggle('bridge');">
-
-                            <td class="period">Mar. 2017 - June 2018</td>
-                            <td class="logo">
-                                <img src="./img/bridge.jpg" alt="Bridge Mills">
-                            </td>
+                        <!--Bridge Mills-->
+                        <tr>
                             <td>
                                 <div>
-                                    <div class="font-weight-bold">
-                                        Bridge Mills Language Centre, Galway
-                                        <img class="align-baseline" src="./img/ie.png" alt="Ireland" width="17">
+                                    <div class="d-flex justify-content-between">
+                                        <div class="d-flex justify-content-start">
+                                            <div class="ml-2 mr-4 d-flex align-items-center"><img src="img/bridge.jpg"
+                                                    width="70px">
+                                            </div>
+                                            <div>
+                                                <div class="font-weight-bold">
+                                                    Bridge Mills Language Centre, Galway <br>
+                                                    Mar. 2017 - June 2018
+                                                </div>
+                                                <div class="font-italic">
+                                                    English as a Second Language
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex align-items-center mx-3 clickable"
+                                            onClick="toggle('bridge');"><i class="material-icons">more_vert</i></div>
                                     </div>
-                                    <div class="font-italic">
-                                        English as a Second Language
-                                    </div>
-                                    <div id="bridge" style="display: none;">
-                                        <br>
+                                    <div class="mx-2 mt-3 coloured-box bg-light-grey px-4 pt-3 pb-2 font-weight-bold"
+                                        id="bridge" style="display: none;">
                                         Certifications received:
                                         <ul>
                                             <li>Cambridge Advanced English (CAE): 209/210</li>
@@ -108,22 +123,29 @@
                             </td>
                         </tr>
                         <!--USP-->
-                        <tr class="clickable" onClick="toggle('usp');">
-                            <td class="period">Feb. 2011 - Dec. 2016</td>
-                            <td class="logo">
-                                <img src="./img/usp.png" alt="usp">
-                            </td>
+                        <tr>
                             <td>
                                 <div>
-                                    <div class="font-weight-bold">
-                                        Universidade de São Paulo, São Paulo
-                                        <img class="align-baseline" src="./img/br.png" alt="Ireland" width="17">
+                                    <div class="d-flex justify-content-between mb-3">
+                                        <div class="d-flex justify-content-start">
+                                            <div class="ml-2 mr-4 d-flex align-items-center"><img src="img/usp.png"
+                                                    width="70px">
+                                            </div>
+                                            <div>
+                                                <div class="font-weight-bold">
+                                                    Universidade de São Paulo, Brazil <br>
+                                                    Feb. 2011 - Dec. 2016
+                                                </div>
+                                                <div class="font-italic">
+                                                    Bachelor's (Honours) in Chemical Engineering
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex align-items-center mx-3 clickable" onClick="toggle('usp');">
+                                            <i class="material-icons">more_vert</i></div>
                                     </div>
-                                    <div class="font-italic">
-                                        Bachelor's (Honours) in Chemical Engineering
-                                    </div>
-                                    <div id="usp" style="display: none;">
-                                        <br>
+                                    <div class="mx-2 mt-3 coloured-box bg-light-grey px-4 pt-3 pb-2 font-weight-bold"
+                                        id="usp" style="display: none;">
                                         Final average: 7.4/10
                                         <br>
                                         <br>
@@ -138,11 +160,10 @@
                                         </ul>
                                         <div class="text-justify">
                                             Exchange year abroad at the <span class="font-weight-bold">University of
-                                                Manchester, Manchester <img class="align-baseline" src="./img/gb.png"
-                                                    alt="UK" width="17"> </span>attending classes of the B.Eng. Chemical
+                                                Manchester, UK </span>attending classes of the B.Eng. Chemical
                                             Engineering course (sponsored by the Science Without Borders Program, a
                                             mobility scheme by the Brazilian Government granted to students with
-                                            academic excellence).
+                                            academic excellence).<br><br>
                                         </div>
                                     </div>
                                 </div>
@@ -159,77 +180,68 @@
                     <tbody>
                         <!--Tiger-->
                         <tr>
-                            <td class="period">Feb. 2020 - today</td>
-                            <td class="logo">
-                                <img src="./img/tiger.jfif" alt="tiger">
-                            </td>
                             <td>
                                 <div>
-                                    <div class="font-weight-bold">
-                                        Flying Tiger Copenhagen, Maynooth
-                                        <img class="align-baseline" src="./img/ie.png" alt="Ireland" width="17"></div>
-                                    <div class="font-italic">
-                                        Team Leader
+                                    <div class="d-flex justify-content-between">
+                                        <div class="d-flex justify-content-start">
+                                            <div class="ml-2 mr-4 d-flex align-items-center"><img src="img/tiger.jfif"
+                                                    width="70px">
+                                            </div>
+                                            <div>
+                                                <div class="font-weight-bold">
+                                                    Flying Tiger Copenhagen, Maynooth <br>
+                                                    Sep. 2019 - today
+                                                </div>
+                                                <div class="font-italic">
+                                                    Team Leader
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex align-items-center mx-3 clickable"
+                                            onClick="toggle('tiger');">
+                                            <i class="material-icons">more_vert</i></div>
+                                    </div>
+                                    <div class="mx-2 mt-3 coloured-box bg-light-grey px-4 pt-3 pb-2 font-weight-bold"
+                                        id="tiger" style="display: none;">
+                                        <ul>
+                                            <li>Analyse sales data in order to strategically merchandise the shop and
+                                                hence increase daily takings.</li>
+                                            <li>Upselling of products for increased sales.</li>
+                                            <li>Manage customer queries in a polite and effient manner.</li>
+                                            <li>Open and close shop and cash up at the end of the day.</li>
+                                        </ul>
                                     </div>
                                 </div>
                             </td>
                         </tr>
-                        <!--Tiger-->
+                        <!--Callarock Ventures-->
                         <tr>
-                            <td class="period">Sep. 2019 - Feb. 2020</td>
-                            <td class="logo">
-                                <img src="./img/tiger.jfif" alt="tiger">
-                            </td>
                             <td>
                                 <div>
-                                    <div class="font-weight-bold">
-                                        Flying Tiger Copenhagen, Maynooth
-                                        <img class="align-baseline" src="./img/ie.png" alt="Ireland" width="17">
+                                    <div class="d-flex justify-content-between">
+                                        <div class="d-flex justify-content-start">
+                                            <div class="ml-2 mr-4 d-flex align-items-center"><img
+                                                    src="img/callarock.jfif" width="70px">
+                                            </div>
+                                            <div>
+                                                <div class="font-weight-bold">
+                                                    Callarock Ventures, Galway <br>
+                                                    June 2018 - Dec. 2018
+                                                </div>
+                                                <div class="font-italic">
+                                                    Web Developer & Bookkeeping Assistant
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex align-items-center mx-3 clickable"
+                                            onClick="toggle('callarock');">
+                                            <i class="material-icons">more_vert</i></div>
                                     </div>
-                                    <div class="font-italic">
-                                        Sales Assistant
-                                    </div>
-                                    <div>
-                                    </div>
-                                </div>
-                            </td>
-                        </tr>
-                        <!--Carton-->
-                        <tr>
-                            <td class="period">May 2019 - Sep. 2019</td>
-                            <td class="logo">
-                                <img src="./img/carton.jpg" alt="carton">
-                            </td>
-                            <td>
-                                <div>
-                                    <div class="font-weight-bold">
-                                        Carton House Hotel, Maynooth
-                                        <img class="align-baseline" src="./img/ie.png" alt="Ireland" width="17">
-                                    </div>
-                                    <div class="font-italic">
-                                        Accommodation Assistant
-                                    </div>
-                                </div>
-                            </td>
-                        </tr>
-                        <!--Callarock-->
-                        <tr class="clickable" onClick="toggle('callarock')">
-                            <td class="period">June 2018 - Dec. 2018</td>
-                            <td class="logo"></td>
-                            <td>
-                                <div>
-                                    <div class="font-weight-bold">
-                                        Callarock Ventures, Galway
-                                        <img class="align-baseline" src="./img/ie.png" alt="Ireland" width="17">
-                                    </div>
-                                    <div class="font-italic">
-                                        Web Developer & Bookkeeping Assistant
-                                    </div>
-                                    <div id="callarock" style="display: none;">
-                                        <br>
+                                    <div class="mx-2 mt-3 coloured-box bg-light-grey px-4 pt-3 pb-2 font-weight-bold"
+                                        id="callarock" style="display: none;">
                                         <ul>
                                             <li>Developed a responsive web page for one of Callarock’s subsidiaries
-                                                (Available soon).</li>
+                                                (Available in page 'Portfolio').</li>
                                             <li>Managed my time to be able to handle all bookkeeping tasks in about 20
                                                 hours per week, which included doing the payroll (50+ employees),
                                                 balancing books, keeping up with e-mails, filing, dealing with
@@ -241,22 +253,29 @@
                             </td>
                         </tr>
                         <!--e-Cig-->
-                        <tr class="clickable" onClick="toggle('ecig')">
-                            <td class="period">Sep. 2017 - June 2018</td>
-                            <td class="logo">
-                                <img src="./img/ecig.png" alt="ecig">
-                            </td>
+                        <tr>
                             <td>
                                 <div>
-                                    <div class="font-weight-bold">
-                                        The e-Cig Store, Galway
-                                        <img class="align-baseline" src="./img/ie.png" alt="Ireland" width="17">
+                                    <div class="d-flex justify-content-between">
+                                        <div class="d-flex justify-content-start">
+                                            <div class="ml-2 mr-4 d-flex align-items-center"><img src="img/ecig.png"
+                                                    width="70px">
+                                            </div>
+                                            <div>
+                                                <div class="font-weight-bold">
+                                                    The e-Cig Store, Galway <br>
+                                                    Sep. 2017 - June 2018
+                                                </div>
+                                                <div class="font-italic">
+                                                    Retail Assistant
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex align-items-center mx-3 clickable" onClick="toggle('ecig');">
+                                            <i class="material-icons">more_vert</i></div>
                                     </div>
-                                    <div class="font-italic">
-                                        Retail Assistant
-                                    </div>
-                                    <div id="ecig" style="display: none;">
-                                        <br>
+                                    <div class="mx-2 mt-3 coloured-box bg-light-grey px-4 pt-3 pb-2 font-weight-bold"
+                                        id="ecig" style="display: none;">
                                         <ul>
                                             <li>Improved my soft skills considerably (in special communication,
                                                 collaboration and time management skills) following advice from
@@ -268,22 +287,30 @@
                             </td>
                         </tr>
                         <!--Clark-->
-                        <tr class="clickable" onClick="toggle('clark')">
-                            <td class="period">Sep. 2016 - Dec. 2018</td>
-                            <td class="logo">
-                                <img src="./img/clark.png" alt="clark">
-                            </td>
+                        <tr>
                             <td>
                                 <div>
-                                    <div class="font-weight-bold">
-                                        Clark Solutions, São Paulo
-                                        <img class="align-baseline" src="./img/br.png" alt="Ireland" width="17">
+                                    <div class="d-flex justify-content-between">
+                                        <div class="d-flex justify-content-start">
+                                            <div class="ml-2 mr-4 d-flex align-items-center"><img src="img/clark.png"
+                                                    width="70px">
+                                            </div>
+                                            <div>
+                                                <div class="font-weight-bold">
+                                                    Clark Solutions, Brazil <br>
+                                                    Sep. 2016 - Dec. 2018
+                                                </div>
+                                                <div class="font-italic">
+                                                    Chemical Engineering Intern
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex align-items-center mx-3 clickable"
+                                            onClick="toggle('clark');">
+                                            <i class="material-icons">more_vert</i></div>
                                     </div>
-                                    <div class="font-italic">
-                                        Chemical Engineering Intern
-                                    </div>
-                                    <div id="clark" style="display: none;">
-                                        <br>
+                                    <div class="mx-2 mt-3 coloured-box bg-light-grey px-4 pt-3 pb-2 font-weight-bold"
+                                        id="clark" style="display: none;">
                                         <ul>
                                             <li>
                                                 Used and updated company software (mainly MATLAB and VBA) for designing
@@ -295,22 +322,30 @@
                             </td>
                         </tr>
                         <!--LEA-->
-                        <tr class="clickable" onClick="toggle('lea')">
-                            <td class="period">May 2015 - Dec. 2015</td>
-                            <td class="logo">
-                                <img src="./img/usp.png" alt="usp">
-                            </td>
+                        <tr>
                             <td>
                                 <div>
-                                    <div class="font-weight-bold">
-                                        Laboratory of Electrochemistry and Corrosion (LEC), Universidade de São Paulo
-                                        <img class="align-baseline" src="./img/br.png" alt="Brazil" width="17">
+                                    <div class="d-flex justify-content-between">
+                                        <div class="d-flex justify-content-start">
+                                            <div class="ml-2 mr-4 d-flex align-items-center"><img src="img/usp.png"
+                                                    width="70px">
+                                            </div>
+                                            <div>
+                                                <div class="font-weight-bold">
+                                                    Laboratory of Electrochemistry and Corrosion (LEC), Universidade de
+                                                    São Paulo, Brazil <br>
+                                                    May 2015 - Dec. 2015
+                                                </div>
+                                                <div class="font-italic">
+                                                    Research & Development Intern
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex align-items-center mx-3 clickable" onClick="toggle('lea');">
+                                            <i class="material-icons">more_vert</i></div>
                                     </div>
-                                    <div class="font-italic">
-                                        Research & Development Intern
-                                    </div>
-                                    <div id="lea" style="display: none;">
-                                        <br>
+                                    <div class="mx-2 mt-3 coloured-box bg-light-grey px-4 pt-3 pb-2 font-weight-bold"
+                                        id="lea" style="display: none;">
                                         <ul>
                                             <li>
                                                 Analysis of the anticorrosive properties of a then new paint that was
@@ -328,22 +363,30 @@
                             </td>
                         </tr>
                         <!--IPEN-->
-                        <tr class="clickable" onClick="toggle('ipen')">
-                            <td class="period">Sep. 2014 - Dec. 2014</td>
-                            <td class="logo">
-                                <img src="./img/ipen.jfif" alt="ipen">
-                            </td>
+                        <tr>
                             <td>
                                 <div>
-                                    <div class="font-weight-bold">
-                                        Institute of Energy and Nuclear Research (IPEN), São Paulo
-                                        <img class="align-baseline" src="./img/br.png" alt="Brazil" width="17">
+                                    <div class="d-flex justify-content-between">
+                                        <div class="d-flex justify-content-start">
+                                            <div class="ml-2 mr-4 d-flex align-items-center"><img src="img/ipen.jfif"
+                                                    width="70px">
+                                            </div>
+                                            <div>
+                                                <div class="font-weight-bold">
+                                                    Institute of Energy and Nuclear Research (IPEN), São Paulo, Brazil
+                                                    <br>
+                                                    Sep. 2014 - Dec. 2014
+                                                </div>
+                                                <div class="font-italic">
+                                                    Research & Development Intern
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex align-items-center mx-3 clickable" onClick="toggle('ipen');">
+                                            <i class="material-icons">more_vert</i></div>
                                     </div>
-                                    <div class="font-italic">
-                                        Research & Development Intern
-                                    </div>
-                                    <div id="ipen" style="display: none;">
-                                        <br>
+                                    <div class="mx-2 mt-3 coloured-box bg-light-grey px-4 pt-3 pb-2 font-weight-bold"
+                                        id="ipen" style="display: none;">
                                         <ul>
                                             <li>
                                                 Irradiation of gelatin and potato starch based biofilms for the study of
@@ -352,12 +395,10 @@
                                                 article in
                                                 the International Nuclear Atlantic Conference (available <a
                                                     href="https://github.com/wellybean/wellybean.github.io/resources/IRRADIATED%20GELATIN-POTATO%20STARCH%20BLENDS.pdf">here</a>).
-
                                             </li>
                                         </ul>
                                     </div>
                                 </div>
-
                             </td>
                         </tr>
                     </tbody>
