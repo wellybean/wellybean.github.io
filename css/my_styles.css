@@ -16,6 +16,7 @@ a:link,
 a:active,
 a:visited {
   text-decoration: none;
+  color: black;
 }
 
 .profile-img {
